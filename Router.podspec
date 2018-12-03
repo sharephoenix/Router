@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint SwiftRouter.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Router.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,20 +15,20 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SwiftRouter"
+  s.name         = "Router"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SwiftRouter."
-
+  s.summary      = "iOS 界面解耦 动态路由."
+  s.swift_version = "4.2"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "UIViewController Router 解耦"
-  # <<-DESC
-  #                 DESC
+  s.description  = "iOS 界面解耦 动态路由. 面向协议编程"
+  #<<-DESC
+  #                   DESC
 
-  s.homepage     = "https://github.com/sharephoenix/swift-ios-route"
+  s.homepage     = "https://github.com/sharephoenix/SwiftRouter"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sharephoenix/swift-ios-route.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sharephoenix/SwiftRouter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "/Router/*.{h,m}"
+  s.source_files  = "Router/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

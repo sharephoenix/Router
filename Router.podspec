@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "Router"
   s.version      = "0.0.1"
   s.summary      = "iOS 界面解耦 动态路由."
-  s.swift_version = "4.2"
+  #s.swift_version = "4.2"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+   s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Router/*.{h,m,swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "SwiftRouter/SwiftRouter/*.{h,m,swift}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

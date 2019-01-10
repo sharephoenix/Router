@@ -10,12 +10,12 @@
 		D0E6DD9121B57E5E00DEDCEE /* SwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6DD8721B57E5E00DEDCEE /* SwiftRouter.framework */; };
 		D0E6DD9621B57E5E00DEDCEE /* SwiftRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DD9521B57E5E00DEDCEE /* SwiftRouterTests.swift */; };
 		D0E6DD9821B57E5E00DEDCEE /* SwiftRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E6DD8A21B57E5E00DEDCEE /* SwiftRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0E6DDA821B57E8300DEDCEE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDA221B57E8300DEDCEE /* Router.swift */; };
-		D0E6DDA921B57E8300DEDCEE /* RHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDA321B57E8300DEDCEE /* RHelper.swift */; };
-		D0E6DDAA21B57E8300DEDCEE /* LBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDA421B57E8300DEDCEE /* LBaseController.swift */; };
-		D0E6DDAB21B57E8300DEDCEE /* modules.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E6DDA521B57E8300DEDCEE /* modules.json */; };
-		D0E6DDAC21B57E8300DEDCEE /* RouteFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDA621B57E8300DEDCEE /* RouteFirstController.swift */; };
-		D0E6DDAD21B57E8300DEDCEE /* AutoCreateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDA721B57E8300DEDCEE /* AutoCreateProtocol.swift */; };
+		D0E6DDB521B57F3700DEDCEE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDAF21B57F3700DEDCEE /* Router.swift */; };
+		D0E6DDB621B57F3700DEDCEE /* RHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDB021B57F3700DEDCEE /* RHelper.swift */; };
+		D0E6DDB721B57F3700DEDCEE /* LBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDB121B57F3700DEDCEE /* LBaseController.swift */; };
+		D0E6DDB821B57F3700DEDCEE /* modules.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E6DDB221B57F3700DEDCEE /* modules.json */; };
+		D0E6DDB921B57F3700DEDCEE /* RouteFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDB321B57F3700DEDCEE /* RouteFirstController.swift */; };
+		D0E6DDBA21B57F3700DEDCEE /* AutoCreateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6DDB421B57F3700DEDCEE /* AutoCreateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +35,12 @@
 		D0E6DD9021B57E5E00DEDCEE /* SwiftRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E6DD9521B57E5E00DEDCEE /* SwiftRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRouterTests.swift; sourceTree = "<group>"; };
 		D0E6DD9721B57E5E00DEDCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0E6DDA221B57E8300DEDCEE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		D0E6DDA321B57E8300DEDCEE /* RHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHelper.swift; sourceTree = "<group>"; };
-		D0E6DDA421B57E8300DEDCEE /* LBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBaseController.swift; sourceTree = "<group>"; };
-		D0E6DDA521B57E8300DEDCEE /* modules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = modules.json; sourceTree = "<group>"; };
-		D0E6DDA621B57E8300DEDCEE /* RouteFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteFirstController.swift; sourceTree = "<group>"; };
-		D0E6DDA721B57E8300DEDCEE /* AutoCreateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCreateProtocol.swift; sourceTree = "<group>"; };
+		D0E6DDAF21B57F3700DEDCEE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D0E6DDB021B57F3700DEDCEE /* RHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHelper.swift; sourceTree = "<group>"; };
+		D0E6DDB121B57F3700DEDCEE /* LBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBaseController.swift; sourceTree = "<group>"; };
+		D0E6DDB221B57F3700DEDCEE /* modules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = modules.json; sourceTree = "<group>"; };
+		D0E6DDB321B57F3700DEDCEE /* RouteFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteFirstController.swift; sourceTree = "<group>"; };
+		D0E6DDB421B57F3700DEDCEE /* AutoCreateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCreateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		D0E6DD8921B57E5E00DEDCEE /* SwiftRouter */ = {
 			isa = PBXGroup;
 			children = (
-				D0E6DDA121B57E8300DEDCEE /* Router */,
+				D0E6DDAE21B57F3700DEDCEE /* Router */,
 				D0E6DD8A21B57E5E00DEDCEE /* SwiftRouter.h */,
 				D0E6DD8B21B57E5E00DEDCEE /* Info.plist */,
 			);
@@ -99,18 +99,17 @@
 			path = SwiftRouterTests;
 			sourceTree = "<group>";
 		};
-		D0E6DDA121B57E8300DEDCEE /* Router */ = {
+		D0E6DDAE21B57F3700DEDCEE /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				D0E6DDA221B57E8300DEDCEE /* Router.swift */,
-				D0E6DDA321B57E8300DEDCEE /* RHelper.swift */,
-				D0E6DDA421B57E8300DEDCEE /* LBaseController.swift */,
-				D0E6DDA521B57E8300DEDCEE /* modules.json */,
-				D0E6DDA621B57E8300DEDCEE /* RouteFirstController.swift */,
-				D0E6DDA721B57E8300DEDCEE /* AutoCreateProtocol.swift */,
+				D0E6DDAF21B57F3700DEDCEE /* Router.swift */,
+				D0E6DDB021B57F3700DEDCEE /* RHelper.swift */,
+				D0E6DDB121B57F3700DEDCEE /* LBaseController.swift */,
+				D0E6DDB221B57F3700DEDCEE /* modules.json */,
+				D0E6DDB321B57F3700DEDCEE /* RouteFirstController.swift */,
+				D0E6DDB421B57F3700DEDCEE /* AutoCreateProtocol.swift */,
 			);
-			name = Router;
-			path = ../../Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E6DDAB21B57E8300DEDCEE /* modules.json in Resources */,
+				D0E6DDB821B57F3700DEDCEE /* modules.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,11 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E6DDAD21B57E8300DEDCEE /* AutoCreateProtocol.swift in Sources */,
-				D0E6DDAC21B57E8300DEDCEE /* RouteFirstController.swift in Sources */,
-				D0E6DDA921B57E8300DEDCEE /* RHelper.swift in Sources */,
-				D0E6DDAA21B57E8300DEDCEE /* LBaseController.swift in Sources */,
-				D0E6DDA821B57E8300DEDCEE /* Router.swift in Sources */,
+				D0E6DDBA21B57F3700DEDCEE /* AutoCreateProtocol.swift in Sources */,
+				D0E6DDB921B57F3700DEDCEE /* RouteFirstController.swift in Sources */,
+				D0E6DDB621B57F3700DEDCEE /* RHelper.swift in Sources */,
+				D0E6DDB721B57F3700DEDCEE /* LBaseController.swift in Sources */,
+				D0E6DDB521B57F3700DEDCEE /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +381,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftRouter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,7 +391,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -406,6 +406,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftRouter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

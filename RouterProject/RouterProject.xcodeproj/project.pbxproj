@@ -20,6 +20,7 @@
 		D0274C9D21B2F0B1002E3684 /* RouteFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9821B2F0B1002E3684 /* RouteFirstController.swift */; };
 		D0274C9E21B2F0B1002E3684 /* AutoCreateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9921B2F0B1002E3684 /* AutoCreateProtocol.swift */; };
 		D0274CA021B2F208002E3684 /* RHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9F21B2F208002E3684 /* RHelper.swift */; };
+		D0A68D5321E78CCF00C0BB03 /* RouterTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A68D5221E78CCF00C0BB03 /* RouterTouchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D0274C9821B2F0B1002E3684 /* RouteFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteFirstController.swift; sourceTree = "<group>"; };
 		D0274C9921B2F0B1002E3684 /* AutoCreateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCreateProtocol.swift; sourceTree = "<group>"; };
 		D0274C9F21B2F208002E3684 /* RHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHelper.swift; sourceTree = "<group>"; };
+		D0A68D5221E78CCF00C0BB03 /* RouterTouchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTouchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				D0274C6D21B2F083002E3684 /* Assets.xcassets */,
 				D0274C6F21B2F083002E3684 /* LaunchScreen.storyboard */,
 				D0274C7221B2F083002E3684 /* Info.plist */,
+				D0A68D5221E78CCF00C0BB03 /* RouterTouchController.swift */,
 			);
 			path = RouterProject;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				D0274C9E21B2F0B1002E3684 /* AutoCreateProtocol.swift in Sources */,
 				D0274C6721B2F080002E3684 /* AppDelegate.swift in Sources */,
 				D0274C9B21B2F0B1002E3684 /* LBaseController.swift in Sources */,
+				D0A68D5321E78CCF00C0BB03 /* RouterTouchController.swift in Sources */,
 				D0274C9D21B2F0B1002E3684 /* RouteFirstController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
